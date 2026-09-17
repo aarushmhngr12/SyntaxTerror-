@@ -53,9 +53,9 @@ Explainable Dashboard
 
 The system can classify patients as:
 
-STABLE
-MONITOR
-WATCH
+STABLE->
+MONITOR->
+WATCH->
 POSSIBLE ADHERENCE CONCERN
 
 Each state is accompanied by an explanation of the contributing signals.
