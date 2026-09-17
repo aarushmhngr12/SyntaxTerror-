@@ -1,0 +1,9 @@
+{% extends 'base.html' %}{% block title %}GlucoGuard | Patient Care{% endblock %}
+{% block body %}
+<div class="landing"><div class="landing-wrap">
+<nav class="landing-nav fade"><a href="/" class="landing-brand"><div class="logo-mark"><svg viewBox="0 0 32 32" fill="none" stroke-width="1.8"><path d="M4 17h6l2.5-7 4.2 13 3-9 2 3H28"/><path d="M16 4c4.5-5 12 1 8.8 6.7C22.5 15 16 19 16 19S9.5 15 7.2 10.7C4 5 11.5-1 16 4Z"/></svg></div><div><div class="brand-name">GlucoGuard</div><div class="brand-sub">DIABETES CARE</div></div></a><div class="landing-links"><a href="/patients">Patients</a><a href="/patients">Monitoring</a><a href="/patients">Insights</a></div></nav>
+<section class="landing-main"><div class="hero-logo fade2"><svg viewBox="0 0 64 64" fill="none" stroke-width="2"><path d="M7 33h12l4-12 7 24 5-17 4 7h18"/><path d="M32 9c8-9 22 2 16 12-4 7-16 14-16 14S20 28 16 21C10 11 24 0 32 9Z"/></svg></div><h1 class="fade2">Gluco<span>Guard</span></h1><p class="fade3">A clear, patient-centred view of diabetes care — bringing glucose, refill behaviour and everyday context together in one place.</p><div class="landing-cta fade3"><a class="btn btn-primary" href="/patients">View Patients <span>→</span></a></div>
+<div class="visual fade3"><img src="/static/hero-art.svg" alt="Healthcare monitoring interface"><div class="visual-overlay"></div><div class="visual-copy"><h2>Better visibility.<br>Better conversations.</h2><p>Explore each patient's current signals, personal baselines and treatment context.</p></div></div>
+<div class="landing-stats fade3"><div class="landing-stat"><b>{{ patients|length }}</b><span>Patients in care</span></div><div class="landing-stat"><b>5</b><span>Signal categories</span></div><div class="landing-stat"><b>24/7</b><span>Continuous monitoring view</span></div></div>
+</section></div></div>
+{% endblock %}
