@@ -49,6 +49,23 @@ Monitoring State
 Explainable Dashboard
 ```
 
+## Monitoring States
+
+The system can classify patients as:
+
+STABLE
+MONITOR
+WATCH
+POSSIBLE ADHERENCE CONCERN
+
+Each state is accompanied by an explanation of the contributing signals.
+
+## Tech Stack
+
+Python · Flask · Pandas · Excel · HTML · CSS · JavaScript · Chart.js
+
 ## Data Disclaimer
 
 All patient records are fictional demonstration data. GlucoGuard is a prototype and is not intended for medical diagnosis or treatment.
+
+
