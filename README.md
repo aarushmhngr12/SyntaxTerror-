@@ -8,6 +8,8 @@ The dashboard reads from `diabetes_adherence_data.xlsx`.
 ## Run
 
 ```bash
+git clone https://github.com/aarushmhngr12/SyntaxTerror-.git
+cd SyntaxTerror-
 pip install -r requirements.txt
 python web_app.py
 ```
