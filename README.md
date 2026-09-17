@@ -28,8 +28,8 @@ Temporal Analysis
 Monitoring State
      ↓
 Explainable Dashboard
+```
 
-
-Data Disclaimer
+## Data Disclaimer
 
 All patient records are fictional demonstration data. GlucoGuard is a prototype and is not intended for medical diagnosis or treatment.
