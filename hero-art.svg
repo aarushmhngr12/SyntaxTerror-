@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" fill="none">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF8F8"/><stop offset="1" stop-color="#F8DADC"/></linearGradient><linearGradient id="wave" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#8B0F19"/><stop offset="1" stop-color="#D13A44"/></linearGradient></defs>
+<rect width="1200" height="420" rx="26" fill="url(#bg)"/>
+<path d="M-20 320C150 260 235 348 385 292C530 238 595 104 750 156C930 216 958 340 1220 250V430H-20V320Z" fill="#F2C7CA" opacity=".62"/>
+<path d="M-20 365C180 292 260 386 415 330C585 268 630 174 790 206C950 238 1038 355 1220 288V430H-20V365Z" fill="#E9A7AB" opacity=".45"/>
+<path d="M-20 393C165 325 300 402 454 354C620 302 685 228 826 258C982 291 1056 374 1220 326" stroke="url(#wave)" stroke-width="5" opacity=".75"/>
+<circle cx="900" cy="112" r="112" fill="#fff" opacity=".72"/><circle cx="900" cy="112" r="77" stroke="#B51724" stroke-width="2" opacity=".16"/>
+<path d="M834 113h28l11-29 24 63 17-42 12 22h42" stroke="#B51724" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M900 70c19-22 54 5 38 31-10 16-38 32-38 32s-28-16-38-32c-16-26 19-53 38-31Z" stroke="#B51724" stroke-width="3"/>
+<circle cx="170" cy="95" r="7" fill="#B51724" opacity=".8"/><circle cx="195" cy="95" r="4" fill="#B51724" opacity=".4"/><circle cx="218" cy="95" r="3" fill="#B51724" opacity=".25"/>
+</svg>
