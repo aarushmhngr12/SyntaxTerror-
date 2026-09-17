@@ -1,25 +1,30 @@
 # GlucoGuard
 
-A multi-patient diabetes care monitoring dashboard backed by Excel data and a rule-based, explainable signal engine.
+### Diabetes Medication-Adherence Monitoring System
 
-## Run
+GlucoGuard is a monitoring system that identifies potential medication-adherence concerns by analyzing multiple patient signals, including glucose levels, refill behaviour, physical activity, sleep, and HbA1c trends.
 
-```bash
-pip install -r requirements.txt
-python web_app.py
-```
+## Features
 
-Open `http://127.0.0.1:5000`.
+- 👥 Multi-patient monitoring
+- 📊 Glucose & HbA1c trends
+- 💊 Medication refill analysis
+- 📈 Temporal refill–glucose analysis
+- 💤 Activity & sleep context
+- 🔍 Explainable monitoring alerts
+- ⚡ Live signal simulation
 
-## Pages
+## How It Works
 
-- `/` — landing page
-- `/patients` — searchable patient directory
-- `/patient/P001` — individual patient dashboard
-- `/patient/<patient_id>/run-monitoring` — process a new glucose signal for that patient
-
-## Data
-
-The dashboard reads from `diabetes_adherence_data.xlsx`.
-
-The workbook contains five demo patients (P001–P005), with patient information, baselines, glucose/activity/sleep events, refill history and HbA1c results.
+```text
+Patient Data
+     ↓
+Signal Analysis
+     ↓
+Adherence + Context Signals
+     ↓
+Temporal Analysis
+     ↓
+Monitoring State
+     ↓
+Explainable Dashboard
