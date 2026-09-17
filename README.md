@@ -3,6 +3,25 @@
 ### Diabetes Medication-Adherence Monitoring System
 
 GlucoGuard is a monitoring system that identifies potential medication-adherence concerns by analyzing multiple patient signals, including glucose levels, refill behaviour, physical activity, sleep, and HbA1c trends.
+The dashboard reads from `diabetes_adherence_data.xlsx`.
+
+## Run
+
+```bash
+pip install -r requirements.txt
+python web_app.py
+```
+
+Open `http://127.0.0.1:5000`.
+
+## Pages
+
+- `/` — landing page
+- `/patients` — searchable patient directory
+- `/patient/P001` — individual patient dashboard
+- `/patient/<patient_id>/run-monitoring` — process a new glucose signal for that patient
+
+The dashboard reads from `diabetes_adherence_data.xlsx`.
 
 ## Features
 
